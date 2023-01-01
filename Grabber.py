@@ -1,31 +1,3 @@
-"""
-1---->Machine name:
-    use python built in Os module 
-    uname function gives all the details about system 
-
-2---->List of all users and the group they are associated 
-with
-        use PWD module this give users and passwords 
-
-
-3---->From /proc/cpuinfo get the following
-    o Processor
-    o Vendor_id
-    o Model
-    o Model name
-    o Cache
-
-    copy cpuinfo file to txt file and then filter the address
-
-
-4--->All services on machine and their current status
-
-    call linex command with python
-
-5---->This data needs to be collected and formatted in a 
-    text file for easy readability.
-
-"""
 import os 
 import sys
 import pwd , grp
